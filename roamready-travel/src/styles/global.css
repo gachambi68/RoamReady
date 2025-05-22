@@ -1,0 +1,23 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F5F2E9;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1023px) {
+  /* Tablet styles */
+}
+
+@media (max-width: 767px) {
+  /* Mobile styles */
+}

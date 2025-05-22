@@ -1,0 +1,41 @@
+.navbar {
+  background: #fff;
+  border-bottom: 1.5px solid #e2e8f0;
+  z-index: 10;
+  position: relative;
+}
+.navContainer {
+  max-width: 1148px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding: 0 24px;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+.navList a {
+  color: #243366;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.04rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s;
+}
+.navList a:hover {
+  color: #e76f51;
+}
+.brand {
+  font-size: 2.2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 800;
+  color: #243366;
+  letter-spacing: -2px;
+  padding: 0 2rem;
+}
